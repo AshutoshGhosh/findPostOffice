@@ -1,0 +1,200 @@
+.headDesign {
+  font-family: sans-serif;
+  margin: 10px auto;
+  color: #228b22;
+  text-align: center;
+  font-size: 20px;
+  max-width: 600px;
+  position: relative;
+}
+.headDesign:before {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 3px;
+  background: #191970;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+.headDesign:after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 3px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Header CSS */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+/* Header CSS */
+
+/* Footer CSS */
+.footer-container {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.copyright-text {
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin: 0 !important;
+}
+
+/* Footer CSS */
+/* Not Found CSS */
+.text-center {
+  text-align: center;
+}
+
+/* Not Found CSS */
+
+/* Post Css */
+.card {
+  margin: 2rem auto;
+  box-shadow: 0px 0px 5px 0 lightgrey;
+  border-radius: 5px;
+  width: 30%;
+  padding: 10px;
+}
+.card_width_cstm {
+  width: 80%;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1rem;
+}
+.input-field {
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 75%;
+  border: 1px solid rgb(178 178 178);
+}
+.button {
+  background: linear-gradient(
+    54deg,
+    rgba(25, 0, 255, 0.8688725490196079) 0%,
+    rgba(63, 150, 145, 1) 48%,
+    rgba(255, 153, 0, 1) 100%
+  );
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+  font-weight: 700;
+}
+.post_office_card {
+  border: 1px solid #e5e3e3;
+  background-color: whitesmoke;
+  /* min-height: 9rem; */
+  border-radius: 10px;
+  position: relative;
+  padding: 1.5rem 3.5rem;
+}
+.top,
+.bottom {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.rltv_pin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid lightgrey;
+  padding: 5px 1rem;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #7cd1f9;
+  color: white;
+  font-weight: 700;
+}
+.rltv_phone {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid lightgrey;
+  padding: 5px 1rem;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #7cd1f9;
+  color: white;
+  font-weight: 700;
+}
+.rltv_counting {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid lightgrey;
+  padding: 5px 1rem;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: red;
+  color: white;
+  font-weight: 700;
+}
+.scrollable {
+  overflow-y: scroll;
+  max-height: 18rem;
+}
+.mr-3 {
+  margin-right: 1rem;
+}
+.ml-3 {
+  margin-left: 1rem;
+}
+.text_bold {
+  font-weight: 700;
+}
+/* Post Css */
